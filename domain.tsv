@@ -1,0 +1,29 @@
+Domain/Region	Start	End
+Transcription activation domain (acidic)	1	44
+TADI Motif	17	25
+TADII Motif	48	56
+HRMT1L2	1	83
+CCAR2	1	320
+WWOX	66	110
+ZNF385A	100	300
+HIPK1 (By Similarity)	100	370
+FBXO42	113	236
+AXIN1 (By Similarity)	116	292
+53BP2 SH3 domain	241	248
+E4F1	256	294
+CARM1	300	393
+HIPK2	319	360
+USP7	359	363
+MORN3	374	393
+DNA	273	280
+Basic (repression of DNA-binding)	368	387
+Oligomerization	325	356
+Nuclear export signal	339	350
+Bipartite nuclear localization signal	305	321
+Proline residues (compositional bias)	64	92
+Basic and acidic residues	282	301
+Polar residues	305	319
+Basic residues (repression of DNA-binding)	366	380
+Disordered	50	96
+Disordered	282	325
+Disordered
