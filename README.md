@@ -1,2 +1,3 @@
 # TP53
-Mutational and domain analysis of the TP53 gene for early diagnosis and therapeutic drug creation
+This project deals with mutations occuring in the TP53 gene sequence 
+and how it distorts the functionality of different protein domains.
