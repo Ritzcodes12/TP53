@@ -46,7 +46,7 @@ def fetch_tp53_sequences():
             print("\nProtein sequence:")
             print(cds_protein)
             # Write the protein sequence to a FASTA file
-            with open("Gene_sequences.fasta", "w") as fasta_file:
+            with open("GeneSequences.fasta", "w") as fasta_file:
                 SeqIO.write(gene_record, fasta_file, "fasta")
                 print("FASTA file written successfully.")
 
