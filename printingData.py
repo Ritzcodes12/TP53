@@ -4,7 +4,7 @@ from Bio.SeqRecord import SeqRecord
 from Bio import SeqIO
 
 # Load the reference TP53 sequence (FASTA file)
-reference_seq = SeqIO.read('Gene_sequences.fasta', 'fasta')
+reference_seq = SeqIO.read('GeneSequences.fasta', 'fasta')
 ref_seq = reference_seq.seq
 
 print(f"Reference sequence length: {len(ref_seq)}")
@@ -13,7 +13,7 @@ print(f"Reference sequence length: {len(ref_seq)}")
 reference_start_position = 7668401  # Adjust as per your reference genome
 
 # Load the TSV data into a pandas DataFrame
-mutations_df = pd.read_csv('TP53_mutations.tsv', sep='\t')
+mutations_df = pd.read_csv('TP53_Mutations.tsv', sep='\t')
 
 def apply_mutation(ref_seq, dna_change, protein_change):
     print(f"{i}: Processing mutation: {dna_change}")  
