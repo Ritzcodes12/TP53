@@ -61,7 +61,7 @@ def find_affected_domains(mutations, domains):
 
 # File paths (update these paths with your actual file paths)
 domain_file = "domain.tsv"
-mutation_file = "TP53_mutations.tsv"
+mutation_file = "TP53_Mutations.tsv"
 
 # Load domains and mutations
 domains = load_domains(domain_file)
