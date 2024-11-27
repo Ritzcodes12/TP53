@@ -36,7 +36,7 @@ def align_and_show(original_seq, mutated_seqs):
         print(f"Alignment score for Mutated Sequence {i + 1}: {best_alignment.score}")
 
 # File paths to the original and mutated FASTA files
-original_file = "Gene_sequences.fasta"
+original_file = "GeneSequences.fasta"
 mutated_file = "SEQUENCES.fasta"
 
 # Read the sequences
